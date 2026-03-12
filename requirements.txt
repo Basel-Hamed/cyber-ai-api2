@@ -25,7 +25,6 @@ python-dotenv==1.0.0
 # Database & Cache
 redis==5.0.1
 aioredis==2.0.1
-sqlite3-fts4==1.0.3
 
 # Security & Auth
 python-jose[cryptography]==3.3.0
