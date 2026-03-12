@@ -34,12 +34,3 @@ slowapi==0.1.8
 # NLP & AI
 nltk==3.8.1
 scikit-learn==1.3.2
-
-# Image Processing (if needed)
-Pillow==10.1.0
-
-# Monitoring & Logging
-python-json-logger==2.0.7
-
-# Development Tools
-python-dotenv==1.0.0
