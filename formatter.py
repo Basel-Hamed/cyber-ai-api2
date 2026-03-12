@@ -533,7 +533,8 @@ def format_security_report(findings: List[Dict]) -> str:
     ]
     
     for finding in findings:
-        lines.append(formatter.format_security_finding(finding))
+        formatted_finding = formatter.format_security_finding(finding)
+        lines.append(formatted_finding)
         lines.append("")
     
     return "\n".join(lines)
