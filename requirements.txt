@@ -1,4 +1,14 @@
-fastapi
-uvicorn
-python-multipart
-python-dotenv
+# Core
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-multipart==0.0.6
+python-dotenv==1.0.0
+
+# Optional - but recommended
+requests==2.31.0
+beautifulsoup4==4.12.2
+aiohttp==3.9.0
+deep-translator==1.11.4
+
+# Image analysis (optional)
+Pillow==10.1.0
