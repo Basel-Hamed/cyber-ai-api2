@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "🚀 Build started..."
+echo "🚀 Building Cyber AI API..."
 python -m pip install --upgrade pip
-pip install -r requirements.txt
-echo "✅ Build completed!"
+pip install --no-cache-dir -r requirements.txt
+echo "✅ Build complete!"
