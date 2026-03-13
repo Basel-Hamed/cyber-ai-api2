@@ -1,13 +1,8 @@
+# শুধু প্রয়োজনীয় প্যাকেজ - কোনো ঝামেলা নেই
 fastapi==0.104.1
 uvicorn[standard]==0.24.0
 python-multipart==0.0.6
-
+pydantic==2.5.0
 requests==2.31.0
 beautifulsoup4==4.12.2
-fake-useragent==1.4.0
-
-deep-translator==1.11.4
-
 python-dotenv==1.0.0
-python-jose==3.3.0
-passlib==1.7.4
